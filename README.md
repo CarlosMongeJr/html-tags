@@ -53,6 +53,7 @@ El texto en el elemento "address" generalmente se representa en cursiva.
 ### ***&lt;area&gt;***
 La etiqueta ***"area"*** define un área dentro de un mapa de imagen (un mapa de imagen es una imagen con áreas en las que se puede hacer clic).
 Los elementos "area" siempre están anidados dentro de una etiqueta "map".
+
 ***Nota:*** El atributo (usemap) en "img" está asociado con el atributo (name) en "map" y crea una relación entre la imagen y el mapa.
 
 ```html
@@ -69,7 +70,7 @@ Los elementos "area" siempre están anidados dentro de una etiqueta "map".
 ### ***&lt;article&gt;***
 La etiqueta ***"article"*** especifica contenido independiente.
 Un article debe tener sentido por sí mismo y debe ser posible distribuirlo independientemente del resto del sitio.
-Fuentes potenciales para el elemento article: (publicacion en el foro, entrada de blog, noticias)
+Fuentes potenciales para el elemento article:
 * Publicación en el foro
 * Entrada en el blog
 * Noticia
@@ -87,6 +88,7 @@ Fuentes potenciales para el elemento article: (publicacion en el foro, entrada d
 ### ***&lt;aside&gt;***
 La etiqueta ***"aside"*** define algún contenido además del contenido en el que se coloca.
 El contenido aparte debe estar indirectamente relacionado con el contenido circundante.
+
 ***Nota:*** El contenido "aside" a menudo se coloca como una barra lateral en un documento.
 
 ```html
@@ -113,3 +115,46 @@ Hay tres formatos de audio admitidos en HTML: ( MP3, WAV y OGG. )
 ```
 
 <br>
+
+### ***&lt;b&gt;***
+La etiqueta ***"b"*** especifica texto en negrita sin ninguna importancia adicional.
+
+***Nota:*** De acuerdo con la especificación de HTML5, la etiqueta "b" debe usarse como ***ULTIMO*** recurso cuando ninguna otra etiqueta sea más apropiada. La especificación establece que el texto enfatizado debe indicarse con la etiqueta "em", el texto importante con la etiqueta "strong" y el texto marcado/resaltado con la etiqueta "mark".
+
+```html
+<p> Este es texto normal <b>y este es texto en negrita</b> </p>
+```
+
+<br>
+
+### ***&lt;base&gt;***
+La etiqueta ***"base"*** especifica la URL base y/o el destino de todas las URL relativas en un documento.
+La etiqueta "base" debe tener presente un atributo href o target, o ambos.
+Solo puede haber un único elemento "base" en un documento, y debe estar dentro del elemento "head".
+
+ ***Nota:*** Tenga en cuenta que solo hemos especificado una dirección relativa para la imagen. Dado que hemos especificado una URL base en la sección principal, el navegador buscará la imagen en "https://www.w3schools.com/images/stickman.gif".
+
+```html
+<head>
+  <base href="https://www.w3schools.com/" target="_blank">
+</head>
+<body>
+  <img src="images/stickman.gif" width="24" height="39" alt="Stickman">
+</body>
+```
+
+<br>
+
+### ***&lt;bdi&gt;***
+BDI significa aislamiento bidireccional.
+
+La etiqueta ***"bdi"*** le dice al algoritmo bidireccional del navegador que trate el texto que contiene de forma aislada del texto que lo rodea. 
+Es particularmente útil cuando un sitio web inserta texto de forma dinámica que podría estar formateada en una dirección diferente de otro texto fuera de ella no conoce la direccionalidad del texto que se inserta.
+
+```html
+<ul>
+ <li>Usuario 1<bdi> hrefs </bdi></li>
+ <li>Usuario 2<bdi> jdoe </bdi></li>
+ <li>Usuario 3<bdi> إيان </bdi></li>
+</ul>
+```
