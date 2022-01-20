@@ -149,7 +149,7 @@ Solo puede haber un único elemento "base" en un documento, y debe estar dentro 
 BDI significa aislamiento bidireccional.
 
 La etiqueta ***"bdi"*** le dice al algoritmo bidireccional del navegador que trate el texto que contiene de forma aislada del texto que lo rodea. 
-Es particularmente útil cuando un sitio web inserta texto de forma dinámica que podría estar formateada en una dirección diferente de otro texto fuera de ella no conoce la direccionalidad del texto que se inserta.
+Es particularmente útil cuando un sitio web inserta texto de forma dinámica que podría estar formateada en una dirección diferente de otro texto fuera de ella y no conoce la direccionalidad del texto que se inserta.
 
 ```html
 <ul>
@@ -157,4 +157,48 @@ Es particularmente útil cuando un sitio web inserta texto de forma dinámica qu
  <li>Usuario 2<bdi> jdoe </bdi></li>
  <li>Usuario 3<bdi> إيان </bdi></li>
 </ul>
+```
+
+<br>
+
+### ***&lt;bdo&gt;***
+BDO significa anulación bidireccional.
+
+La etiqueta ***"bdo"*** se utiliza para anular la dirección del texto actual y tiene 2 valores "rtl" (right to left) y "ltr" (left to right).
+
+```html
+<bdo dir="rtl">
+  Este texto irá de derecha a izquierda.
+</bdo>
+```
+
+<br>
+
+### ***&lt;blockquote&gt;***
+La etiqueta ***"blockquote"*** especifica una sección que se cita de otra fuente.
+Los navegadores suelen endentar los elementos "blockquote".
+
+***Nota:*** El atributo (cite) especifica la fuente de la cita.
+
+```html
+<blockquote cite="http://www.worldwildlife.org/who/index.html">
+  Durante 50 años, WWF ha estado protegiendo el futuro de la naturaleza. WWF, la organización de conservación líder en el mundo, trabaja en 100 países y cuenta con el apoyo de 1,2 millones de miembros en los Estados Unidos y cerca de 5 millones en todo el mundo.
+</blockquote>
+```
+
+<br>
+
+### ***&lt;body&gt;***
+La etiqueta ***"body"*** define el cuerpo del documento.
+El elemento "body" contiene todo el contenido de un documento HTML, como encabezados, párrafos, imágenes, hipervínculos, tablas, listas, etc.
+
+***Nota:*** Solo puede haber un elemento "body" en un documento HTML.
+
+```html
+<body>
+  <h1>Este es un encabezado</h1>
+  <p>Esto es un párrafo.</p>
+  <img src="img_girl.jpg" alt="Girl in a jacket" width="500" height="600">
+  <a href="https://www.w3schools.com">¡Visite W3Schools.com!</a>
+</body>
 ```
