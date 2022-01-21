@@ -202,3 +202,61 @@ El elemento "body" contiene todo el contenido de un documento HTML, como encabez
   <a href="https://www.w3schools.com">¡Visite W3Schools.com!</a>
 </body>
 ```
+
+<br>
+
+### ***&lt;br&gt;***
+La etiqueta ***"br"*** inserta un solo salto de línea; es útil para escribir direcciones o poemas.
+La etiqueta "br" es una etiqueta vacía, lo que significa que no tiene una etiqueta final.
+
+***Nota:*** Utilice la etiqueta "br" para introducir saltos de línea, no para añadir espacios entre párrafos.
+
+```html
+<p>
+  Tan bellos es el Sol<br>
+  tan bella es la Luna<br>
+  a alguien como Tu<br>
+  no la cambio por ninguna<br>
+</p>
+```
+
+<br>
+
+### ***&lt;button&gt;***
+La etiqueta ***"button"*** define un botón en el que se puede hacer clic.
+
+***Nota:*** Si sus botones no son para enviar datos de formulario a un servidor, asegúrese de establecer su atributo de (type) en "button". 
+De lo contrario, intentarán enviar los datos del formulario y cargar la respuesta (inexistente), posiblemente destruyendo el estado actual del documento.
+
+```html
+<button type="button">¡Haz click</button>
+```
+  
+<br>
+
+### ***&lt;canvas&gt;***
+La etiqueta ***"canvas"*** se usa para dibujar gráficos, sobre la marcha, a través de secuencias de comandos (generalmente JavaScript).
+La etiqueta "canvas" es transparente y es solo un contenedor para gráficos, (se debe usar un "script" para dibujar los gráficos).
+
+***Nota:*** Cualquier texto dentro del elemento "canvas" se mostrará en navegadores con JavaScript deshabilitado y en navegadores que no admitan "canvas".
+
+```html
+<canvas id="myCanvas">
+    Su navegador no admite la etiqueta de canvas.
+</canvas>
+    
+<script>
+  var c = document.getElementById("myCanvas");
+  var ctx = c.getContext("2d");
+
+  ctx.fillStyle = "red";
+  ctx.fillRect(20, 20, 75, 50);
+  //Turn transparency on
+  // ctx.globalAlpha = 0.2;
+  ctx.fillStyle = "blue";
+  ctx.fillRect(50, 50, 75, 50);
+
+  ctx.fillStyle = "green";
+  ctx.fillRect(80, 80, 75, 50);
+</script>
+```
