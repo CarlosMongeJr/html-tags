@@ -14,7 +14,7 @@ Se pueden usar comentarios para explicar el codigo, lo que puede ser especialmen
 La declaración ***"DOCTYPE"*** no es una etiqueta HTML. Es una "información" para el navegador sobre qué tipo de documento esperar.
 
 ```html
-<!DOCTYPE>
+<!DOCTYPE html>
 ```
 
 <br>
@@ -259,4 +259,55 @@ La etiqueta "canvas" es transparente y es solo un contenedor para gráficos, (se
   ctx.fillStyle = "green";
   ctx.fillRect(80, 80, 75, 50);
 </script>
+```
+
+<br>
+
+### ***&lt;caption&gt;***
+La etiqueta ***"caption"*** define un título de tabla.
+La etiqueta "caption" debe insertarse inmediatamente después de la etiqueta "table".
+
+***Nota:*** Por defecto, el título de una tabla se alineará al centro sobre una tabla. Sin embargo, las propiedades CSS text-align y caption-side se pueden usar para alinear y colocar el título.
+
+```html
+<tabla>
+   <caption>Ahorros mensuales</caption>
+   <tr>
+     <th>Mes</th>
+     <th>Ahorros</th>
+   </tr>
+   <tr>
+     <td>enero</td>
+     <td>$100</td>
+   </tr>
+   <tr>
+     <td>febrero</td>
+     <td>$50</td>
+   </tr>
+</tabla>
+```
+
+<br>
+
+### ***&lt;cite&gt;***
+La etiqueta ***"cite"*** define el título de una obra creativa (por ejemplo, un libro, un poema, una canción, una película, una pintura, una escultura, etc.).
+El nombre de una persona no es el título de una obra.
+
+***Nota:*** El texto en el elemento "cite" generalmente se presenta en itálica.
+
+```html
+<p>
+  <cite>El grito</cite> de Edvard Munch. Pintado en 1893.
+</p>
+```
+
+<br>
+
+### ***&lt;code&gt;***
+La etiqueta ***"code"*** se usa para definir una pieza de código de computadora. El contenido del interior se muestra en la fuente (monospace) predeterminada del navegador.
+
+***Nota:*** Se utiliza principalmente para mostrar el fragmento de código en el navegador web.
+
+```html
+<p>La propiedad CSS <code>background-color</code> define el color de fondo de un elemento.</p>
 ```
