@@ -311,3 +311,60 @@ La etiqueta ***"code"*** se usa para definir una pieza de código de computadora
 ```html
 <p>La propiedad CSS <code>background-color</code> define el color de fondo de un elemento.</p>
 ```
+
+<br>
+
+### ***&lt;col&gt;***
+La etiqueta ***"col"*** especifica las propiedades de columna para cada columna dentro de un elemento "colgroup".
+La etiqueta "col" es útil para aplicar estilos a columnas enteras, en lugar de repetir los estilos para cada celda, para cada fila.
+
+```html
+<table>
+  <colgroup>
+    <col span="2" style="background-color:red">
+    <col style="background-color:yellow">
+  </colgroup>
+</table>
+```
+
+<br>
+
+### ***&lt;colgroup&gt;***
+La etiqueta ***"colgroup"*** especifica un grupo de una o más columnas en una tabla para formatear.
+
+***Nota:*** La etiqueta "colgroup" debe ser hijo de un elemento "table" y antes de cualquier elemento "thead", "tbody", "tfoot" y "tr".
+
+<br>
+  
+```html
+ <table>
+  <colgroup>
+    <col span="2" style="background-color:red">
+    <col style="background-color:yellow">
+  </colgroup>
+  <tr>
+    <th>Titulo</th>
+    <th>Precio</th>
+  </tr>
+  <tr>
+    <td>Mi libro HTML</td>
+    <td>$53</td>
+  </tr>
+</table> 
+```
+
+<br>
+
+### ***&lt;data&gt;***
+La etiqueta ***"data"*** se usa para agregar una traducción legible por máquina de un contenido determinado.
+Este elemento proporciona un valor legible por máquina para los procesadores de datos y un valor legible por humanos para la representación en un navegador.
+
+***Nota:*** si el contenido está relacionado con la hora o la fecha, utilice el elemento (time) en su lugar.
+
+```html
+<ul>
+  <li><data value="21053">Tomate cherry</data></li>
+  <li><data value="21054">Tomate de ternera</data></li>
+  <li><data value="21055">Tomate de merienda</data></li>
+</ul>
+```
