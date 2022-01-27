@@ -368,3 +368,53 @@ Este elemento proporciona un valor legible por máquina para los procesadores de
   <li><data value="21055">Tomate de merienda</data></li>
 </ul>
 ```
+
+<br>
+
+### ***&lt;datalist&gt;***
+La etiqueta ***"datalist"*** especifica una lista de opciones predefinidas para un elemento "input".
+La etiqueta "datalist" se utiliza para proporcionar una función de "autocompletar" para los elementos "input".
+
+***Nota:*** El atributo (id) del elemento "datalist" debe ser igual al atributo (list) del elemento "input" ***(esto los une).***
+
+```html
+<label for="browser">Elija su navegador de la lista:</label>
+<input list="browsers" name="browser" id="browser">
+
+<datalist id="browsers">
+  <option value="Edge">
+  <option value="Firefox">
+  <option value="Chrome">
+  <option value="Opera">
+  <option value="Safari">
+</datalist>
+```
+
+<br>
+
+### ***&lt;dd&gt;***
+La etiqueta ***"dd"*** se utiliza para describir un término/nombre en una lista de descripción.
+La etiqueta "dd" se usa junto con "dl" (define una lista de descripciones) y "dt" (define términos/nombres).
+
+Dentro de una etiqueta "dd" puedes poner párrafos, saltos de línea, imágenes, enlaces, listas, etc.
+
+```html
+<dl>
+   <dt>Café</dt>
+   <dd>Bebida negra caliente</dd>
+   <dt>Leche</dt>
+   <dd>Bebida blanca fría</dd>
+</dl>
+```
+
+<br>
+
+### ***&lt;del&gt;***
+La etiqueta ***"del"*** define el texto que se ha eliminado de un documento. Los navegadores generalmente marcarán una línea a través del texto eliminado.
+
+```html
+<p>¡Mi color favorito es <del>verde</del> azul!</p>
+```
+
+<br>
+
