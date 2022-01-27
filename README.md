@@ -418,3 +418,35 @@ La etiqueta ***"del"*** define el texto que se ha eliminado de un documento. Los
 
 <br>
 
+### ***&lt;details&gt;***
+La etiqueta ***"details"*** especifica detalles adicionales y se usa a menudo para crear un widget interactivo que el usuario puede abrir y cerrar. 
+De forma predeterminada, el widget está cerrado. Cuando está abierto, se expande y muestra el contenido que contiene.
+
+***Nota:*** la etiqueta "summary" se utiliza junto con "details" para especificar un encabezado visible para los detalles.
+
+```html
+<details>
+  <summary>Cuanto cuesta la membresia?</summary>
+  <p>La memebresia es gratis el primer año.</p>
+</details>
+```
+
+<br>
+
+### ***&lt;dfn&gt;***
+La etiqueta ***"dfn"*** representa el "elemento de definición" y especifica un término que se definirá dentro del contenido.
+El padre más cercano de la etiqueta "dfn" también debe contener la definición/explicación del término.
+
+```html
+<p> <dfn>HTML</dfn> es el lenguaje de marcado estándar para crear páginas web. </p>
+```
+
+<br>
+
+### ***&lt;dialog&gt;***
+La etiqueta ***"dialog"*** define un cuadro de diálogo o una subventana.
+El elemento "dialog" facilita la creación de cuadros de diálogo emergentes y modales en una página web.
+
+```html
+<dialog open>Esta es una ventana de diálogo abierta</dialog>
+```
