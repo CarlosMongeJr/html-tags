@@ -450,3 +450,49 @@ El elemento "dialog" facilita la creación de cuadros de diálogo emergentes y m
 ```html
 <dialog open>Esta es una ventana de diálogo abierta</dialog>
 ```
+
+<br>
+
+### ***&lt;div&gt;***
+La etiqueta ***"div"*** define una división o una sección en un documento HTML.
+La etiqueta "div" se utiliza como contenedor de elementos HTML, que luego se diseñan con CSS o se manipulan con JavaScript usando el atributo (class o id).
+¡Se puede poner cualquier tipo de contenido dentro de la etiqueta "div"!
+
+***Nota:*** De forma predeterminada, los navegadores siempre colocan un salto de línea antes y después del elemento "div".
+
+```html
+<div class="miDiv">
+  <h2>Este es un encabezado en un elemento div</h2>
+  <p>Este es un parrafo en un elemento div</p>
+</div>
+```
+
+<br>
+
+### ***&lt;dl&gt;***
+La etiqueta ***"dl"*** define una lista de descripción.
+La etiqueta "dl" se usa junto con "dt" (define términos/nombres) y "dd" (describe cada término/nombre).
+  
+```html
+<dl>
+   <dt>Café</dt>
+   <dd>Bebida negra caliente</dd>
+   <dt>Leche</dt>
+   <dd>Bebida blanca fría</dd>
+</dl>
+```
+
+<br>
+
+### ***&lt;dt&gt;***
+La etiqueta ***"dt"*** define un término/nombre en una lista de descripción.
+La etiqueta "dt" se usa junto con "dl" (define una lista de descripción) y "dd" (describe cada término/nombre).
+
+```html
+<dl>
+   <dt>Café</dt>
+   <dd>Bebida negra caliente</dd>
+   <dt>Leche</dt>
+   <dd>Bebida blanca fría</dd>
+</dl>
+```
