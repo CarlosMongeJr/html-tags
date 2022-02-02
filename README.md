@@ -1,7 +1,7 @@
 # Etiquetas de HTML
 
 ### ***&lt;!--...--&gt;***
-La etiqueta de ***"comentario"*** se utiliza para insertar comentarios en el codigo fuente. Los comentarios no se muestran en el navegador. 
+La etiqueta de ***"&lt;!-- --&gt;"*** se utiliza para insertar comentarios en el codigo fuente. Los comentarios no se muestran en el navegador. 
 Se pueden usar comentarios para explicar el codigo, lo que puede ser especialmente util si se tiene mucho codigo.
 
 ```html
@@ -79,7 +79,7 @@ Fuentes potenciales para el elemento article:
 <article>
   <h1>Navegadores más populares</h1>
   <h2>Google Chrome</h2>
-  <p>Google Chrome es un navegador web desarrollado por Google, lanzado en 2008. ¡Chrome es el navegador web más popular del mundo en la actualidad!</p>
+  <p>Google Chrome es un navegador web desarrollado por Google y el más popular del mundo en la actualidad!</p>
 </article>
 ```
 
@@ -93,7 +93,7 @@ El contenido aparte debe estar indirectamente relacionado con el contenido circu
 
 ```html
 <aside>
-  <p>El centro Epcot es un parque temático en Walt Disney World Resort que cuenta con emocionantes atracciones y eventos especiales de temporada.</p>
+  <p>El centro Epcot es un parque temático en Walt Disney World Resort que cuenta con emocionantes atracciones.</p>
 </aside>
 ```
 
@@ -182,7 +182,7 @@ Los navegadores suelen endentar los elementos "blockquote".
 
 ```html
 <blockquote cite="http://www.worldwildlife.org/who/index.html">
-  Durante 50 años, WWF ha estado protegiendo el futuro de la naturaleza. WWF, la organización de conservación líder en el mundo, trabaja en 100 países y cuenta con el apoyo de 1,2 millones de miembros en los Estados Unidos y cerca de 5 millones en todo el mundo.
+  WWF, la organización de conservación líder en el mundo, cuenta con cerca de 5 millones de miembros en todo el mundo.
 </blockquote>
 ```
 
