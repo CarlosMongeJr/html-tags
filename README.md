@@ -500,5 +500,43 @@ La etiqueta "dt" se usa junto con "dl" (define una lista de descripción) y "dd"
 <br>
 
 ### ***&lt;em&gt;***
+La etiqueta ***"em"*** se utiliza para definir texto enfatizado. El contenido interior normalmente se muestra en cursiva.
+Un lector de pantalla pronunciará las palabras en "em" con énfasis, usando acento verbal.
+
+```html
+<p>¡Tú <em>tienes</em> que darte prisa!</p>
+```
+
+<br>
+
 ### ***&lt;embed&gt;***
+La etiqueta ***"embed"*** define un contenedor para un recurso externo, como una página web, una imagen, un reproductor multimedia o una aplicación complementaria.
+
+***Nota:*** Para mostrar una imagen, es mejor usar la etiqueta "img". Para mostrar HTML, la etiqueta "iframe" y para mostrar video o audio, es mejor usar las etiquetas "video" y "audio".
+  
+```html
+<embed type="image/jpg" src="pic_trulli.jpg" width="300" height="200">
+<embed type="text/html" src="snippet.html" width="500" height="200">
+<embed type="video/webm" src="video.mp4" width="400" height="300">
+```
+
+<br>
+
 ### ***&lt;fieldset&gt;***
+La etiqueta ***"fieldset"*** se usa para agrupar elementos relacionados en un formulario.
+La etiqueta "fieldset" dibuja un cuadro alrededor de los elementos relacionados.
+
+```html
+<form>
+ <fieldset>
+  <legend>Personalidad:</legend>
+  <label for="fname">Nombre:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Apellido:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <label for="email">Correo:</label>
+  <input type="email" id="email" name="email"><br><br>
+  <input type="submit" value="Submit">
+ </fieldset>
+</form>
+```
