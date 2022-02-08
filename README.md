@@ -79,7 +79,7 @@ Fuentes potenciales para el elemento article:
 <article>
   <h1>Navegadores más populares</h1>
   <h2>Google Chrome</h2>
-  <p>Google Chrome es un navegador web desarrollado por Google y el más popular del mundo en la actualidad!</p>
+  <p>Google Chrome es un navegador web desarrollado por Google y el más popular del mundo!</p>
 </article>
 ```
 
@@ -93,7 +93,7 @@ El contenido aparte debe estar indirectamente relacionado con el contenido circu
 
 ```html
 <aside>
-  <p>El centro Epcot es un parque temático en Walt Disney World Resort que cuenta con emocionantes atracciones.</p>
+  <p>El centro Epcot es un parque temático en Walt Disney World Resort.</p>
 </aside>
 ```
 
