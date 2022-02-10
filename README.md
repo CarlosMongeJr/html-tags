@@ -540,3 +540,61 @@ La etiqueta "fieldset" dibuja un cuadro alrededor de los elementos relacionados.
  </fieldset>
 </form>
 ```
+
+<br>
+
+### ***&lt;figcaption&gt;***
+La etiqueta ***"figcaption"*** define un título para un elemento "figure".
+El elemento "figcaption" se puede colocar como el primer o último hijo del elemento "figure".
+
+```html
+<figure>
+  <img src="pic_trulli.jpg" alt="Trulli" style="width:100%">
+  <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
+</figure>
+```
+
+<br>
+
+### ***&lt;figure&gt;***
+La etiqueta ***"figure"*** especifica contenido independiente, como ilustraciones, diagramas, fotos, listas de códigos, etc.
+Si bien el contenido del elemento "figure" está relacionado con el flujo principal, su posición es independiente del flujo principal y, si se elimina, no debería afectar el flujo del documento.
+
+```html
+<figure>
+  <img src="pic_trulli.jpg" alt="Trulli" style="width:100%">
+  <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
+</figure>
+```
+
+<br>
+
+### ***&lt;footer&gt;***
+La etiqueta ***"footer"*** define un pie de página para un documento o sección.
+
+Un elemento "footer" normalmente contiene:
+
+* información de autoría
+* informacion registrada
+* Información del contacto
+* mapa del sitio
+* volver a los enlaces superiores
+* documentos relacionados
+* Puede tener varios elementos <footer> en un documento.
+
+***Nota:*** La información de contacto dentro de un elemento "footer" debe ir dentro de una etiqueta "address".
+  
+```html
+<footer>
+ <p>Autor: Hege Refsnes</p>
+ <p><a href="mailto:hege@example.com">hege@example.com</a></p>
+</footer>
+  
+<address>
+  Written by <a href="mailto:webmaster@example.com">Jon Doe</a>.<br>
+  Visit us at:<br>
+  Example.com<br>
+  Box 564, Disneyland<br>
+  USA
+</address>
+```
