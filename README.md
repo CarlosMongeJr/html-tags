@@ -598,3 +598,9 @@ Un elemento "footer" normalmente contiene:
   USA
 </address>
 ```
+
+<br>
+
+### ***&lt;form&gt;***
+### ***&lt;h1&gt;...to...&lt;h6&gt;***
+### ***&lt;head&gt;***
