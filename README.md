@@ -602,5 +602,30 @@ Un elemento "footer" normalmente contiene:
 <br>
 
 ### ***&lt;form&gt;***
+La etiqueta ***"form"*** se usa para crear un formulario HTML para la entrada del usuario.
+
+El elemento "form" puede contener uno o más de los siguientes elementos de formulario:
+"input"
+"textarea"
+"button"
+"select"
+"option"
+"optgroup"
+"fieldset"
+"label"
+"output"
+  
+```html
+<form action="/action_page.php" method="get">
+ <label for="fname">First name:</label>
+ <input type="text" id="fname" name="fname"><br><br>
+ <label for="lname">Last name:</label>
+ <input type="text" id="lname" name="lname"><br><br>
+ <input type="submit" value="Submit">
+</form>
+```  
+  
+<br>  
+  
 ### ***&lt;h1&gt;...to...&lt;h6&gt;***
 ### ***&lt;head&gt;***
