@@ -628,4 +628,20 @@ El elemento "form" puede contener uno o más de los siguientes elementos de form
 <br>  
   
 ### ***&lt;h1&gt;...to...&lt;h6&gt;***
+Las etiquetas ***"h1" a "h6"*** se utilizan para definir encabezados HTML.
+"h1" define el encabezado más importante. "h6" define el encabezado menos importante.
+
+***Nota:*** solo use un "h1" por página; esto debería representar el encabezado/tema principal de toda la página. 
+  Además, no omita los niveles de encabezado: comience con "h1", luego use "h2", y así sucesivamente.
+  
+```html
+  <h1>Este es el encabezado 1</h1>
+  <h2>Este es el encabezado 2</h2>
+  <h3>Este es el encabezado 3</h3>
+  <h4>Este es el encabezado 4</h4>
+  <h5>Este es el encabezado 5</h5>
+  <h6>Este es el encabezado 6</h6>
+```
+<br>
+  
 ### ***&lt;head&gt;***
