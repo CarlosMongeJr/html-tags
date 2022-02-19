@@ -645,3 +645,24 @@ Las etiquetas ***"h1" a "h6"*** se utilizan para definir encabezados HTML.
 <br>
   
 ### ***&lt;head&gt;***
+El elemento ***"head"*** es un contenedor de metadatos (datos sobre datos) y se coloca entre la etiqueta "html" y la etiqueta "body".
+
+Los metadatos son datos sobre el documento HTML. Los metadatos no se muestran.
+
+Los metadatos suelen definir el título del documento, el conjunto de caracteres, los estilos, los scripts y otra metainformación.
+
+Los siguientes elementos pueden ir dentro del elemento "head":
+
+* "title" (obligatorio en todos los documentos HTML)
+* "style"
+* "base"
+* "link"
+* "meta"
+* "script"
+* "noscript"
+ 
+```html
+  <head>
+    <title>Title of the document</title>
+  </head>
+```
