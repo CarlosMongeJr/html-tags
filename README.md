@@ -666,3 +666,10 @@ Los siguientes elementos pueden ir dentro del elemento "head":
     <title>Title of the document</title>
   </head>
 ```
+
+<br>
+  
+### ***&lt;header&gt;***
+### ***&lt;hr&gt;***
+### ***&lt;html&gt;***
+  
