@@ -182,7 +182,7 @@ Los navegadores suelen endentar los elementos "blockquote".
 
 ```html
 <blockquote cite="http://www.worldwildlife.org/who/index.html">
-  WWF, la organización de conservación líder en el mundo, cuenta con cerca de 5 millones de miembros en todo el mundo.
+  WWF, la organización de conservación líder en el mundo, cuenta con millones de miembros en el mundo.
 </blockquote>
 ```
 
