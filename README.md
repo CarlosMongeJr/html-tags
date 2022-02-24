@@ -5,13 +5,13 @@ La etiqueta de ***"&lt;!-- --&gt;"*** se utiliza para insertar comentarios en el
 Se pueden usar comentarios para explicar el codigo, lo que puede ser especialmente util si se tiene mucho codigo.
 
 ```html
-<!-- Este es un comentario -->
+<!-- Este es un comentario solo en html -->
 ```
 
 <br>
 
 ### ***&lt;!DOCTYPE&gt;***
-La declaración ***"DOCTYPE"*** no es una etiqueta HTML. Es una "información" para el navegador sobre qué tipo de documento esperar.
+La declaración **"&lt;DOCTYPE&gt;"** no es una etiqueta HTML. Es una "_información_" para el navegador sobre qué tipo de documento esperar.
 
 ```html
 <!DOCTYPE html>
@@ -20,8 +20,8 @@ La declaración ***"DOCTYPE"*** no es una etiqueta HTML. Es una "información" p
 <br>
 
 ### ***&lt;a&gt;***
-La etiqueta ***"a"*** define un hipervínculo, que se utiliza para enlazar de una página a otra.
-El atributo más importante del elemento "a" es el atributo "href", que indica el destino del enlace.
+La etiqueta **"&lt;a&gt;"** define un hipervínculo, que se utiliza para enlazar de una página a otra.
+El atributo más importante del elemento **"&lt;a&gt;"** es el atributo **href**, que indica el destino del enlace.
 
 ```html
 <a href="https://google.com"> Enlace a Google.com </a>
@@ -30,11 +30,11 @@ El atributo más importante del elemento "a" es el atributo "href", que indica e
 <br>
 
 ### ***&lt;abbr&gt;***
-La etiqueta ***"abbr"*** define una abreviatura o un acrónimo, como "HTML", "CSS", "Dr."
-Se usa el atributo global de "title" para mostrar la descripción de la abreviatura/acrónimo cuando pase el mouse sobre el elemento.
+La etiqueta **"&lt;abbr&gt;"** define una abreviatura o un acrónimo, como **HTML**, **CSS**, **Dr.**
+Se usa el atributo global de **title** para mostrar la descripción de la abreviatura/acrónimo cuando pase el mouse sobre el elemento.
 
 ```htlm
-El <abbr title="HyperText Markup Language">HTML</abbr> fue escrita por Tim Berners-Lee.
+El <abbr title="HyperText Markup Language">HTML</abbr> fue escrito por Tim Berners-Lee.
 ```
 
 <br>
