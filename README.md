@@ -34,15 +34,15 @@ La etiqueta **"&lt;abbr&gt;"** define una abreviatura o un acrónimo, como **HTM
 Se usa el atributo global de **title** para mostrar la descripción de la abreviatura/acrónimo cuando pase el mouse sobre el elemento.
 
 ```htlm
-El <abbr title="HyperText Markup Language">HTML</abbr> fue escrito por Tim Berners-Lee.
+El <abbr title="HyperText Markup Language"> HTML </abbr> fue escrito por Tim Berners-Lee.
 ```
 
 <br>
 
 ### ***&lt;address&gt;***
-La etiqueta ***"address"*** define la información de contacto del autor/propietario de un documento o artículo.
+La etiqueta **"&lt;address&gt;"** define la información de contacto del autor/propietario de un documento o artículo.
 La información de contacto puede ser una dirección de correo electrónico, URL, dirección física, número de teléfono, identificador de redes sociales, etc.
-El texto en el elemento "address" generalmente se representa en cursiva.
+El texto en el elemento **"&lt;address&gt;"** generalmente se representa en cursiva.
 
 ```html
 <address> Escrito por <a href="mailto:webmaster@example.com">Jon Doe</a>.</address>
@@ -51,10 +51,10 @@ El texto en el elemento "address" generalmente se representa en cursiva.
 <br>
 
 ### ***&lt;area&gt;***
-La etiqueta ***"area"*** define un área dentro de un mapa de imagen (un mapa de imagen es una imagen con áreas en las que se puede hacer clic).
-Los elementos "area" siempre están anidados dentro de una etiqueta "map".
+La etiqueta **"&lt;area&gt;"** define un área dentro de un mapa de imagen (un mapa de imagen es una imagen con áreas en las que se puede hacer clic).
+Los elementos **"&lt;area&gt;"** siempre están anidados dentro de una etiqueta **"&lt;map&gt;"**.
 
-***Nota:*** El atributo (usemap) en "img" está asociado con el atributo (name) en "map" y crea una relación entre la imagen y el mapa.
+***Nota:*** El atributo **usemap** en **"&lt;img"&gt;"** está asociado con el atributo **name** en **"&lt;map"&gt;"** y crea una relación entre la imagen y el mapa.
 
 ```html
 <img src="workplace.jpg" alt="Workplace" usemap="#workmap" width="400" height="379">
